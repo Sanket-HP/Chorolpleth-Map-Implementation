@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Choropleth Map</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header>
+        <h1 id="title">United States Educational Attainment</h1>
+        <p id="description">Percentage of adults age 25 and older with a bachelor's degree or higher (2010-2014)</p>
+    </header>
+    <main>
+        <svg id="choropleth"></svg>
+        <div id="legend"></div>
+        <div id="tooltip" class="hidden"></div>
+    </main>
+    <script src="https://d3js.org/d3.v6.min.js"></script>
+    <script src="script.js"></script>
+</body>
+</html>
